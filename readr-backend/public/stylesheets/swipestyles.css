@@ -1,6 +1,15 @@
-body{
-  background-color: #D6E3B5;
-  margin: 0;
+body {
+  background-color: #000000;
+padding: 0px;
+margin: 0px;
+}
+
+#gradient
+{
+  width: 100%;
+  height: 800px;
+  padding: 0px;
+  margin: 0px;
 }
 
 button {
@@ -45,11 +54,15 @@ img {
 .name {
   height: 50px;
   font-size: 35px;
+  font-family: 'Archivo', sans-serif;
 }
 
 .book {
   font-size: 20px;
   height: 100px;
+  font-size: 30px;
+  font-family: 'Eczar', serif;
+  padding-top: 35px;
 }
 
 .box {
@@ -64,10 +77,8 @@ img {
   left: 50%;
   width: 500px;
   transform: translate(-50%, -50%);
-  background-color: #FFC3CE;
+  background-color: #001f3f;
 }
-
-
 
 .buttonbox {
   padding: 10px;
@@ -106,6 +117,7 @@ img {
   height: 140px;
 }
 */
+
 /*
 .book {
   width: 50%;
@@ -127,12 +139,10 @@ img {
 
 .book.like {
   background-color: #39FF14;
-
 }
 
 .book.dislike {
   background-color: #f40;
-
 }
 
 .rotate {
