@@ -10,3 +10,5 @@ get your read on
 Note: you only need to run ```npm install ```when you first clone the repository.
 
 ### Team members
+Animesh Chaudhry 
+Kevin Nguyen
