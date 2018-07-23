@@ -1,0 +1,61 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"firstname": {
+			"name": "firstname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "firstname",
+			"order": 0
+		},
+		"lastname": {
+			"name": "lastname",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "lastname",
+			"order": 1
+		},
+		"book1": {
+			"name": "book1",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "book1",
+			"order": 2
+		},
+		"book2": {
+			"name": "book2",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "book2",
+			"order": 3
+		},
+		"book3": {
+			"name": "book3",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "book3",
+			"order": 4
+		},
+		"book4": {
+			"name": "book4",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "book4",
+			"order": 5
+		},
+		"book5": {
+			"name": "book5",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "book5",
+			"order": 6
+		}
+	}
+}
