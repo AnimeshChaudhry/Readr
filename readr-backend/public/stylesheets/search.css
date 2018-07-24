@@ -1,0 +1,29 @@
+.search {
+  margin: 0;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  width: 500px;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.results {
+  position: absolute;
+  top: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+button {
+  background-color: #e7e7e7; 
+  color: black;
+}
+
+h1 {
+  font-size: 60px;
+}
