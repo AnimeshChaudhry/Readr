@@ -11,4 +11,5 @@ Note: you only need to run ```npm install ```when you first clone the repository
 
 ### Team members
 Animesh Chaudhry <br>
-Kevin Nguyen
+Kevin Nguyen <br>
+Daniel Cherney
