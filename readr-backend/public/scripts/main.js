@@ -2,17 +2,14 @@
   "use strict";
   var $ = window.jQuery;
 
-  dpd.users.me(function(user) {
-    if (user) {
-      $("#book1").text(user.book1);
-      $("#book2").text(user.book2);
-      $("#book3").text(user.book3);
-      $("#book4").text(user.book4);
-      $("#book5").text(user.book5);
-      $(".name").text(user.firstname + " " + user.lastname);
-
-
-
+  dpd.users.me(function(users) {
+    if (users) {
+      $("#book1").text(users.book1);
+      $("#book2").text(users.book2);
+      $("#book3").text(users.book3);
+      $("#book4").text(users.book4);
+      $("#book5").text(users.book5);
+      $(".name").text(users.firstname + " " + users.lastname);
     }
   });
 
