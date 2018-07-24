@@ -28,7 +28,7 @@
       console.log(id_List.length);
       var randomNum = Math.floor(Math.random() * id_List.length);
       var random = id_List[randomNum];
-      id_List.splice(randomNum, 1);
+      //id_List.splice(randomNum, 1);
       console.log("random id: " + random);
       dpd.users.get({
         id: random
