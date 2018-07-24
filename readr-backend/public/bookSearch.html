@@ -2,16 +2,22 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Google books api</title>
+    <title>Google Books</title>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="stylesheets/search.css">
   </head>
   <body>
-    <h1>Book Finder</h1>
-    <input id="search" placeholder="Title or Author" type="text">
-    <button id="button" type="button">Click here</button>
-    <div id="results"></div>
-
+    <div class="search">
+    	<h1>Book Finder</h1>
+        <input class="form-control" id="search" placeholder="Title or Author" type="text"><br>
+        <button id="button" type="button">Let's Find</button>
+    </div>
+    <div class="results" id="results"></div>
+    
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="/scripts/searchBooks.js"></script>
+    <script src="scripts/searchBooks.js"></script>
   </body>
 </html>
