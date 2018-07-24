@@ -1,6 +1,6 @@
 interact('.book')
   .on('tap', function (event) {
-    event.currentTarget.classList.toggle('dislike');
+    event.currentTarget.classList.toggle('nope');
     event.preventDefault();
   })
   .on('doubletap', function (event) {

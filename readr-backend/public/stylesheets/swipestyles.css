@@ -167,11 +167,17 @@ img {
 }*/
 
 .book.like {
-  background-color: #39FF14;
+  background-image: url("../img/liked.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: #39FF14;*/
 }
 
-.book.dislike {
-  background-color: #f40;
+.book.nope {
+  background-image: url("../img/nope.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  /*background-color: #f40;*/
 }
 
 .rotate {
