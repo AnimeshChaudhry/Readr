@@ -28,7 +28,7 @@
 <body>
   <h1></h1>
   <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav style="margin: 0px;" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Readr</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -39,17 +39,36 @@
         <li class="nav-item active">
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Likes</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Disabled</a>
-        </li>
       </ul>
       <a href="bookSearch.html" target="_blank"><button type="button" class="btn btn-primary">Search</button></a>
+      <button style="margin-left: 10px; margin-right: 10px;" type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModalCenter">Likes</button>
       <button class="btn btn-light" id="logout-btn">Logout</button>
     </div>
   </nav>
+
+
+  <!-- Button trigger modal -->
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Your Likes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="likes" class="modal-body">
+          <!-- This is where the likes list of users will be displayed -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Page Content -->
 
@@ -71,7 +90,7 @@
     </div>
   </div>
 
-<!--BUTTON TO GENERATE A PROFILE THAT THE USER CAN EITHER LIKE OR DISLIKE -->
+  <!--BUTTON TO GENERATE A PROFILE THAT THE USER CAN EITHER LIKE OR DISLIKE -->
   <div id="locator">
     <a href="otherProfiles.html"><button type="button" class="btn1"></button></a>
   </div>
@@ -81,6 +100,7 @@
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="scripts/main.js" charset="utf-8"></script>
   <script src="scripts/swipe.js"></script>
+
 
   <div id="gradient" />
 </body>

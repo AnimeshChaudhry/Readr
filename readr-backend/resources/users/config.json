@@ -56,6 +56,14 @@
 			"required": true,
 			"id": "book5",
 			"order": 6
+		},
+		"likes": {
+			"name": "likes",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "likes",
+			"order": 7
 		}
 	}
 }
