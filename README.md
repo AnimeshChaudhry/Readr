@@ -21,7 +21,7 @@ Abdulrahman Alharbi
 1). Add 5 books that you like while creating your account <br>
 2). Create the account <br>
 3). Log in <br>
-4). You are going to be directed to your home profile page <br>
+4). You are going to be directed to your profile page <br>
 5). Click the button on the right of the page to generate a new profile <br>
 6). Double click on book's names to like and single click to dislike <br>
 7). Search for a book by clicking on the search button on the top right <br>
