@@ -24,4 +24,6 @@ Abdulrahman Alharbi
 4). You are going to be directed to your home profile page <br>
 5). Click the button on the right of the page to generate a new profile <br>
 6). Double click on book's names to like and single click to dislike <br>
-7). Search for a book by clicking on the search button on the top right 
+7). Search for a book by clicking on the search button on the top right <br>
+8). Click on the home button on the top left to go to your profile <br>
+9). Click on the Log out button on the top right to log out
