@@ -27,3 +27,6 @@ Abdulrahman Alharbi
 7). Search for a book by clicking on the search button on the top right <br>
 8). Click on the home button on the top left to go to your profile <br>
 9). Click on the Log out button on the top right to log out
+
+### Other Info:
+Uses deployd as a backend. Other technologies include: HTML, CSS, Bootstrap, Javascript, jQuery. Also makes use of the google books API to query book title, author, price, and info. 
