@@ -9,13 +9,6 @@ get your read on, a "tinder" for books
 
 Important: run ```npm install ```only when you first clone the repository.
 
-### Team members
-Animesh Chaudhry <br>
-Kevin Nguyen <br>
-Daniel Cherney <br>
-Abdulrahman Alharbi
-
-
 ### How To Use
 
 1). Add 5 books that you like while creating your account <br>
