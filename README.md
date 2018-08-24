@@ -1,5 +1,5 @@
 # Readr
-get your read on
+get your read on, a "tinder" for books
 
 ### How to run 
 1). ```git clone https://github.com/AnimeshChaudhry/Readr``` <br>
